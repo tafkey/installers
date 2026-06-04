@@ -60,7 +60,7 @@ class MoodleInstaller extends BaseInstaller
         'report'             => 'report/{$name}/',
         'repository'         => 'repository/{$name}/',
         'scormreport'        => 'mod/scorm/report/{$name}/',
-        'smsgateway'         => 'sms/gateway/',
+        'smsgateway'         => 'sms/gateway/{$name}/',
         'search'             => 'search/engine/{$name}/',
         'theme'              => 'theme/{$name}/',
         'tiny'               => 'lib/editor/tiny/plugins/{$name}/',
